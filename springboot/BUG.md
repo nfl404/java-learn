@@ -1,4 +1,4 @@
-## 1.1. spring boot 数据库访问技术
+## 1.1. 数据库访问技术
 研究spring boot  链接数据库的方式：
 
 hibernate,mybatis,jdbc等

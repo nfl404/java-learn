@@ -1,5 +1,5 @@
 ## 1.0. java数据库访问方式
-JDBC，hibernate，mybatis，JPA
+JDBC，hibernate，mybati
 ### 1.1. 使用Spring Data JPA来访问MySQL
 #### 1.1.1 JPA 特性
 
@@ -42,6 +42,7 @@ JDBC，hibernate，mybatis，JPA
 - 2.消除了代码的映射规则，也无需在管理数据库连接，全部被分离到了XML或注解里面去配置。
 - 3.hibernate使用的是HQL语言，它支持方言配置，方便数据库移植。
 - 4.一个会话中，不需要操作多个对象，只要操作Session即可，关闭资源也只要关闭一个Session即可，当然在Spring的集成使用下这些都会交由Spring来管理。
+### 1.3.2 原理
 
 
 ### 1.4 mybatis访问
@@ -57,7 +58,7 @@ Mybatis使用SQL，也是最为直观的，绝大多数的使用Mysql的互联�
 - 2.使用hibernate方式访问。不用关系底层的数据库是哪个，在编程方面使用HQL语言代替SQL以对象为单位操作数据库。hiberate利用了缓存产生实现数据库的读取操作，提供了性能。
 - 3.Mybatis使用SQL语句，比较直观。
 - 4.Mybatis和Hibernate的开发效率和运行效率。
-#### 1.1.1.1 环境
+#### 1.6 环境
 
 - MySQL 版本5.6+
 - JDK 版本1.8+

@@ -58,3 +58,17 @@ Failed to auto-configure a DataSource
     <artifactId>javax.servlet-api</artifactId>
 </dependency>
 ```
+
+## 1.3 
+> 问题描述
+``` 
+mybatis向mysql数据库中插入数据报错Field 'id' doesn't have a default value
+```
+
+> 分析原因
+
+主键id不能是默认值，应设置自增
+
+> 解决方案
+
+修改数据库表，将id字段设置自增。
